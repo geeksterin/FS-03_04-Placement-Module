@@ -1,0 +1,28 @@
+.modal-wrapper {
+  background: black;
+  position: absolute;
+  top: 0;
+  left: 0;
+  visibility: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  opacity: 0.8;
+}
+
+.modal-inner {
+  display: flex;
+  flex-direction: column;
+  background-color: red;
+  z-index: 1;
+  opacity: 1;
+  padding: 24px;
+  border-radius: 12px;
+  border: 1px solid black;
+}
+
+.show-modal {
+  visibility: visible;
+}
